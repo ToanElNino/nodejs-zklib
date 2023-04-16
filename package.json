@@ -1,0 +1,24 @@
+{
+  "name": "web-chat-realtime",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./server/index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.18.2",
+    "i": "^0.3.7",
+    "node-zklib": "^1.3.0",
+    "npm": "^9.6.4",
+    "socket.io": "^4.5.4",
+    "zklib": "^0.2.11",
+    "zklib-js": "^1.3.5"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
